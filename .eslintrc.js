@@ -5,7 +5,10 @@ module.exports = {
     node: true,
     jest: true,
   },
-  extends: ['airbnb-typescript'],
+  extends: [
+    'airbnb',
+    'airbnb-typescript',
+  ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaFeatures: {
